@@ -21,8 +21,7 @@ public class Main {
         double result = sum / 6.0;
         System.out.println("Average: " + result);
 
-        boolean passed = result >= 60, failed = result <= 100;
-        boolean finalResult = passed && failed;
-        System.out.println("Durum: " + (finalResult == true ? "Sinifi Gecti" : "Sinifta Kaldi"));
+        boolean isSuccessful = result >= 60 && result <= 100;
+        System.out.println("Durum: " + (isSuccessful == true ? "Sinifi Gecti" : "Sinifta Kaldi"));
     }
 }
