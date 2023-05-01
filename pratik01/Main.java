@@ -22,6 +22,6 @@ public class Main {
         System.out.println("Average: " + result);
 
         boolean isSuccessful = result >= 60 && result <= 100;
-        System.out.println("Durum: " + (isSuccessful == true ? "Sinifi Gecti" : "Sinifta Kaldi"));
+        System.out.println("Durum: " + (isSuccessful ? "Sinifi Gecti" : "Sinifta Kaldi"));
     }
 }
